@@ -15,7 +15,7 @@ typedef uintptr_t ngx_uint_t;
 //typedef int *	  intptr_t;
 typedef int		  ngx_fd_t;
 typedef intptr_t  ngx_int_t;
-static ngx_uint_t  ngx_slab_max_size;
+static ngx_uint_t  ngx_slab_max_size = 0;
 static ngx_uint_t  ngx_slab_exact_size;
 static ngx_uint_t  ngx_slab_exact_shift;
 

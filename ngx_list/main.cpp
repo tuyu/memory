@@ -87,15 +87,15 @@ void print(ngx_list_t *l)
 	do{
 		int i = l->part.nelts;
 		for (int j = 0; j < i; j++)
-			cout << ((elem*)((char*)temp->elts + j*sizeof(elem)))->usrno << endl; //如果没有(char*),那么每次遍历都会走一个10，需要查看原因
-
+			cout << ((elem*)((char*)temp->elts + j*sizeof(elem)))->usrno << endl; //如果没有(char*),那么每次遍历都会走一个16，需要查看原因
+		                                                                          //因为当是elem*的时候，没加1将会移动elem个位置
 		temp = l->part.next;
 	} while (temp != NULL);
 
 	
 }
 
-int main()
+int main_ngx_list()
 {
 	char * test = new char[10];
 	strcpy(test, "hello");

@@ -1,16 +1,14 @@
-﻿生成启动时间为 2014/12/27 11:47:08。
-     1>项目“c:\Users\tuyu\documents\visual studio 2013\Projects\memory\memory\memory.vcxproj”在节点 2 上(Build 个目标)。
+﻿生成启动时间为 2014/12/31 9:49:43。
+     1>项目“C:\Users\tuyu\Documents\Visual Studio 2013\Projects\memory\memory\memory.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         D:\software\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp memory.cpp
+         D:\software\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt memory.cpp
          memory.cpp
-         main.cpp
-         正在生成代码...
        Link:
-         D:\software\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\tuyu\documents\visual studio 2013\Projects\memory\Debug\memory.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\tuyu\documents\visual studio 2013\Projects\memory\Debug\memory.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\tuyu\documents\visual studio 2013\Projects\memory\Debug\memory.lib" /MACHINE:X86 Debug\main.obj
+         D:\software\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\tuyu\Documents\Visual Studio 2013\Projects\memory\Debug\memory.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\tuyu\Documents\Visual Studio 2013\Projects\memory\Debug\memory.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\tuyu\Documents\Visual Studio 2013\Projects\memory\Debug\memory.lib" /MACHINE:X86 Debug\main.obj
          Debug\memory.obj
-         memory.vcxproj -> c:\users\tuyu\documents\visual studio 2013\Projects\memory\Debug\memory.exe
-     1>已完成生成项目“c:\Users\tuyu\documents\visual studio 2013\Projects\memory\memory\memory.vcxproj”(Build 个目标)的操作。
+         memory.vcxproj -> C:\Users\tuyu\Documents\Visual Studio 2013\Projects\memory\Debug\memory.exe
+     1>已完成生成项目“C:\Users\tuyu\Documents\Visual Studio 2013\Projects\memory\memory\memory.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:06.60
+已用时间 00:00:03.63

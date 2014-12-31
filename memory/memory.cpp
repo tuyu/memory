@@ -1,15 +1,19 @@
 #include"memory.h"
 
-ngx_uint_t  ngx_pagesize;
-ngx_uint_t  ngx_pagesize_shift;
+ngx_uint_t  ngx_pagesize = 4096;
+ngx_uint_t  ngx_pagesize_shift = 12;
 ngx_uint_t  ngx_cacheline_size;
 ngx_uint_t  ngx_debug_malloc;
 
 
 
 
+
 void ngx_slab_init(ngx_slab_pool_t *pool)
 {
+	pool->min_shift = 3;
+	pool->min_size = 8;
+	
 	u_char           *p;
 	size_t            size;
 	ngx_int_t         m;
@@ -44,7 +48,7 @@ void ngx_slab_init(ngx_slab_pool_t *pool)
 
 	p += n * sizeof(ngx_slab_page_t);
 
-	pages = (ngx_uint_t)(size / (ngx_pagesize + sizeof(ngx_slab_page_t)));
+ 	pages = (ngx_uint_t)(size / (ngx_pagesize + sizeof(ngx_slab_page_t)));
 
 	ngx_memzero(p, pages * sizeof(ngx_slab_page_t));
 
